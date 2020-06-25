@@ -21,18 +21,12 @@ import android.widget.Toast;
 public class Waiting extends AppCompatActivity implements serialListener{
 
     String kode;
-
-
     public Waiting() {
     }
-
     private enum Connected {False, Pending, True}
-
     private String deviceAddress;
     private String newline = "\r\n";
-
     private TextView receiveText;
-
     private serialSocket socket;
     private serialService service;
     private boolean initialStart = true;
@@ -58,9 +52,10 @@ public class Waiting extends AppCompatActivity implements serialListener{
             @Override
             public void onClick(View v) {
                 sendtext.setText(kode);
+                deviceAddress = address.getText().toString(); //insert address here
+                connect();
             }
         });
-
         Button bt_send =findViewById(R.id.bt_send);
         bt_send.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,7 +70,7 @@ public class Waiting extends AppCompatActivity implements serialListener{
                 finish();
             }
         });
-        deviceAddress = address.getText().toString(); //insert address here
+
     }
 
     @Override
@@ -128,9 +123,12 @@ public class Waiting extends AppCompatActivity implements serialListener{
 
     private void disconnect() {
         connected = Connected.False;
-        service.disconnect();
-        socket.disconnect();
-        socket = null;
+        try{
+            service.disconnect();
+            socket.disconnect();
+            socket = null;
+        }
+        catch(Exception e){}
     }
 
     private void send(String str) {
