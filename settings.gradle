@@ -1,0 +1,2 @@
+rootProject.name='Night Owl Project'
+include ':app'

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Night Owl Project</string>
+    <string-array name="namaRuangan">
+        <item>Lab. Honeywell</item>
+        <item>Lab. Tegangan Tinggi</item>
+        <item>Lab. Artificial Intelligence</item>
+        <item>TD</item>
+        <item>Ruang Sidang</item>
+        <item>Ruang Dosen</item>
+        <item>TTLD</item>
+        <item>Instalasi</item>
+        <item>Keuangan</item>
+        <item>Alumni</item>
+        <item>Pengelola</item>
+        <item>Teleconference</item>
+    </string-array>
+    <string-array name="kodeRuangan">
+        <item>A23451</item>
+        <item>B164234</item>
+        <item>C1324</item>
+        <item>D143</item>
+        <item>E1234</item>
+        <item>F2341</item>
+        <item>G231</item>
+        <item>H1234</item>
+        <item>I1123</item>
+        <item>S102</item>
+        <item>S123</item>
+        <item>S123123</item>
+    </string-array>
+    <string-array name="ar_pertanyaan">
+        <item>Sejarah DTETI?</item>
+        <item>Visi Misi?</item>
+    </string-array>
+    <string-array name="ar_jawaban">
+        <item>Jurusan Teknik Elektro dan Teknologi Informasi (JTETI) Fakultas Teknik Universitas Gadjah Mada berdiri sejak tahun 1963, dengan nama Bagian Teknik Mesin dan Listrik. Sebutan “Jurusan” (menggantikan “Bagian”) mulai digunakan pada tahun 1980 mengikuti PP No. 5 tahun 1980, sedangkan nama “Teknik Elektro” (menggantikan nama “Listrik”), mulai digunakan tahun 1983 untuk menyesuaikan dengan SK Menteri Pendidikan dan Kebudayaan RI No. 0174/0/1983 tentang Penataan Jurusan pada Fakultas di Lingkungan Universitas/Institut Negeri.</item>
+        <item>Visi
+Sumber inovasi yang universal di Bidang Ilmu Teknik Elektro &amp; Teknologi Informasi, untuk kepentingan bangsa dan kemanusiaan, dijiwai nilai-nilai budaya bangsa berdasarkan Pancasila.
+
+
+Misi
+
+1. Melaksanakan tridharma perguruan tinggi untuk menghasilkan lulusan yang cakap dan berintegritas dan  menyelenggarakan penelitian yang dapat dimanfaatkan bagi kepentingan bangsa dan kemanusiaan.
+2. Mengembangkan lingkungan akademik yang mendorong tumbuhnya  inovasi dalam pelaksanaan tridharma perguruan tinggi.</item>
+    </string-array>
+</resources>
