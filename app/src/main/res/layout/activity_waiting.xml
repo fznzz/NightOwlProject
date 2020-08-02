@@ -13,6 +13,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back" />
@@ -44,6 +45,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:text="Send"
+        android:onClick="sendClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/receive_text" />
 
@@ -54,11 +56,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@android:string/copy"
+        android:onClick="copyClick"
         app:layout_constraintEnd_toStartOf="@+id/bt_send"
         app:layout_constraintTop_toBottomOf="@+id/receive_text" />
 
     <EditText
-        android:id="@+id/address_text"
+        android:id="@+id/txt_ip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -67,19 +70,19 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="true"
-        android:text="Address"
-        app:layout_constraintBottom_toTopOf="@+id/send_text"
+        android:hint="IP Address"
+        app:layout_constraintBottom_toTopOf="@+id/txt_isi"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/send_text"
+        android:id="@+id/txt_isi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Text"
+        android:hint="Isi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
