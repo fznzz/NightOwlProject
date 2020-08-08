@@ -32,41 +32,35 @@ public class Guide extends AppCompatActivity implements guide_adapter.OnNoteList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
 
-        ImageView btBack = findViewById(R.id.bt_back_guide); //button back
-        ImageView btNext = findViewById(R.id.bt_next_guide); //button next
-        btBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        }); //bt back finish listener
-        btNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(kode==null)
-                {
-                    snackbar = Snackbar.make(findViewById(R.id.coordinator),"Pilih tujuan terlebih dahulu!",Snackbar.LENGTH_LONG);
-                    snackbar.show();
-                }
-                else {
-                    Intent startIntent = new Intent(getApplicationContext(), Waiting.class);
-                    startIntent.putExtra("kode",kode);
-                    startActivity(startIntent);
-                }
-            }
-        });
         namaRuangan = getResources().getStringArray(R.array.namaRuangan); //start of recyclerview code
         kodeRuangan = getResources().getStringArray(R.array.kodeRuangan);
         rv = findViewById(R.id.rv_guide);
         guide_adapter adapter = new guide_adapter(this,namaRuangan,kodeRuangan,this);
         rv.setAdapter(adapter);
         rv.setLayoutManager(new LinearLayoutManager(this)); //end of recyclerview code
-
-
     }
 
     @Override
     public void onNoteClick(int position) {
         kode = kodeRuangan[position];
+    }
+
+    public void backClick(View v)
+    {
+        finish();
+    }
+
+    public void nextClick(View v)
+    {
+        if(kode==null)
+        {
+            snackbar = Snackbar.make(findViewById(R.id.coordinator),"Pilih tujuan terlebih dahulu!",Snackbar.LENGTH_LONG);
+            snackbar.show();
+        }
+        else {
+            Intent startIntent = new Intent(getApplicationContext(), Waiting.class);
+            startIntent.putExtra("kode",kode);
+            startActivity(startIntent);
+        }
     }
 }

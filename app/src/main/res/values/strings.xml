@@ -1,18 +1,20 @@
 <resources>
     <string name="app_name">Night Owl Project</string>
     <string-array name="namaRuangan">
-        <item>Lab. Honeywell</item>
-        <item>Lab. Tegangan Tinggi</item>
-        <item>Lab. Artificial Intelligence</item>
-        <item>TD</item>
-        <item>Ruang Sidang</item>
-        <item>Ruang Dosen</item>
-        <item>TTLD</item>
-        <item>Instalasi</item>
-        <item>Keuangan</item>
-        <item>Alumni</item>
-        <item>Pengelola</item>
-        <item>Teleconference</item>
+        <item>Lab. Honeywell</item>                 //honeywell
+        <item>Lab. Tegangan Tinggi</item>           //high_power
+        <item>Lab. Artificial Intelligence</item>   //ugmai
+        <item>TD</item>                             //td
+        <item>Ruang Sidang</item>                   //thesis
+        <item>Ruang Dosen</item>                    //lecturer
+        <item>TTLD</item>                           //power
+        <item>Instalasi</item>                      //installation
+        <item>Keuangan</item>                       //finance
+        <item>Alumni</item>                         //alumni
+        <item>Pengelola</item>                      //admin
+        <item>Teleconference</item>                 //teleconference
+        <item>Toilet Utara</item>                   //north_toilet
+        <item>Toilet Selatan</item>                 //south toilet
     </string-array>
     <string-array name="kodeRuangan">
         <item>A23451</item>
@@ -27,6 +29,24 @@
         <item>S102</item>
         <item>S123</item>
         <item>S123123</item>
+        <item>toilet1</item>
+        <item>toilet2</item>
+    </string-array>
+    <string-array name="kodeOnline">
+        <item>honeywell</item>
+        <item>high_power</item>
+        <item>ugmai</item>
+        <item>td</item>
+        <item>thesis</item>
+        <item>lecturer</item>
+        <item>power</item>
+        <item>installation</item>
+        <item>finance</item>
+        <item>alumni</item>
+        <item>admin</item>
+        <item>teleconference</item>
+        <item>north_toilet</item>
+        <item>south_toilet</item>
     </string-array>
     <string-array name="ar_pertanyaan">
         <item>Sejarah DTETI?</item>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663512401436",
+    "firebase_url": "https://nightowl-robotics.firebaseio.com",
+    "project_id": "nightowl-robotics",
+    "storage_bucket": "nightowl-robotics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663512401436:android:4258468079e3eb914d81d9",
+        "android_client_info": {
+          "package_name": "ugm.fznzz.nightowlproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663512401436-1u07rhbes7rdfnbmmfk62op71kfnpgdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ugm.fznzz.nightowlproject",
+            "certificate_hash": "5ef535282b2184270df4e3cbb67532065f7b0a96"
+          }
+        },
+        {
+          "client_id": "663512401436-kukbmubgblr8g9ho23fe98sd8le6hsjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4ACUWQ_s8UMhHpb8R8gpJWtI4aNkgdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663512401436-kukbmubgblr8g9ho23fe98sd8le6hsjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
