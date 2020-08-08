@@ -1,51 +1,60 @@
 <resources>
     <string name="app_name">Night Owl Project</string>
     <string-array name="namaRuangan">
-        <item>Lab. Honeywell</item>                 //honeywell
-        <item>Lab. Tegangan Tinggi</item>           //high_power
-        <item>Lab. Artificial Intelligence</item>   //ugmai
-        <item>TD</item>                             //td
-        <item>Ruang Sidang</item>                   //thesis
-        <item>Ruang Dosen</item>                    //lecturer
-        <item>TTLD</item>                           //power
-        <item>Instalasi</item>                      //installation
-        <item>Keuangan</item>                       //finance
-        <item>Alumni</item>                         //alumni
-        <item>Pengelola</item>                      //admin
-        <item>Teleconference</item>                 //teleconference
-        <item>Toilet Utara</item>                   //north_toilet
-        <item>Toilet Selatan</item>                 //south toilet
+        <item>UGM AI Centre</item>                 //honeywell
+        <item>Honeywell</item>           //high_power
+        <item>Common Room</item>   //ugmai
+        <item>North Toilet</item>                             //td
+        <item>Electrical Power System Lab</item>                   //thesis
+        <item>Doctoral Residency</item>                    //lecturer
+        <item>Alumni</item>                           //power
+        <item>Finance</item>                      //installation
+        <item>Academic Affair</item>                       //finance
+        <item>Meeting Room</item>                         //alumni
+        <item>Board of Director</item>                      //admin
+        <item>Teleconference Room</item>                 //teleconference
+        <item>High Voltage Lab.</item>                   //north_toilet
+        <item>Lecturers Transit Room</item>                 //south toilet
+        <item>TD Classroom</item>
+        <item>Transmission and Distribution Lab.</item>
+        <item>South Toilet</item>
     </string-array>
     <string-array name="kodeRuangan">
-        <item>A23451</item>
-        <item>B164234</item>
-        <item>C1324</item>
-        <item>D143</item>
-        <item>E1234</item>
-        <item>F2341</item>
-        <item>G231</item>
-        <item>H1234</item>
-        <item>I1123</item>
+        <item>N101</item>
+        <item>N102</item>
+        <item>N103</item>
+        <item>N105</item>
+        <item>N106</item>
+        <item>N107</item>
+        <item>N108</item>
+        <item>N109</item>
+        <item>S101</item>
         <item>S102</item>
-        <item>S123</item>
-        <item>S123123</item>
-        <item>toilet1</item>
-        <item>toilet2</item>
+        <item>S103</item>
+        <item>S104</item>
+        <item>S105</item>
+        <item>S106</item>
+        <item>S107</item>
+        <item>S108</item>
+        <item>S109</item>
     </string-array>
     <string-array name="kodeOnline">
-        <item>honeywell</item>
-        <item>high_power</item>
         <item>ugmai</item>
-        <item>td</item>
-        <item>thesis</item>
-        <item>lecturer</item>
-        <item>power</item>
-        <item>installation</item>
-        <item>finance</item>
-        <item>alumni</item>
-        <item>admin</item>
-        <item>teleconference</item>
+        <item>honeywell</item>
+        <item>commonroom</item>
         <item>north_toilet</item>
+        <item>power</item>
+        <item>doctoral</item>
+        <item>alumni</item>
+        <item>finance</item>
+        <item>academic</item>
+        <item>meeting</item>
+        <item>director</item>
+        <item>teleconference</item>
+        <item>high_power</item>
+        <item>transit</item>
+        <item>td_class</item>
+        <item>td_lab</item>
         <item>south_toilet</item>
     </string-array>
     <string-array name="ar_pertanyaan">
