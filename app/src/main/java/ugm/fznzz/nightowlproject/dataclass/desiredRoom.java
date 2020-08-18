@@ -1,8 +1,19 @@
 package ugm.fznzz.nightowlproject.dataclass;
 
 public class desiredRoom {
-    public desiredRoom(String room) {
+
+    private String room;
+    private String state;
+
+
+    public desiredRoom(String room, String state) {
         this.room = room;
+        this.state = state;
+    }
+
+    public desiredRoom()
+    {
+
     }
 
     public String getRoom() {
@@ -13,8 +24,11 @@ public class desiredRoom {
         this.room = room;
     }
 
-    public desiredRoom() {
+    public String getState(){
+        return state;
     }
 
-    private String room;
+    public void setState(String state){
+        this.state = state;
+    }
 }

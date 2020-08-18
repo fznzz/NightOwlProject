@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">Night Owl Project</string>
     <string-array name="namaRuangan">
-        <item>UGM AI Centre</item>                 //honeywell
-        <item>Honeywell</item>           //high_power
-        <item>Common Room</item>   //ugmai
-        <item>North Toilet</item>                             //td
-        <item>Electrical Power System Lab</item>                   //thesis
-        <item>Doctoral Residency</item>                    //lecturer
-        <item>Alumni</item>                           //power
-        <item>Finance</item>                      //installation
-        <item>Academic Affair</item>                       //finance
-        <item>Meeting Room</item>                         //alumni
-        <item>Board of Director</item>                      //admin
-        <item>Teleconference Room</item>                 //teleconference
-        <item>High Voltage Lab.</item>                   //north_toilet
-        <item>Lecturers Transit Room</item>                 //south toilet
+        <item>UGM AI Centre</item>
+        <item>Honeywell</item>
+        <item>Common Room</item>
+        <item>North Toilet</item>
+        <item>Electrical Power System Lab</item>
+        <item>Doctoral Residency</item>
+        <item>Alumni</item>
+        <item>Finance</item>
+        <item>Academic Affair</item>
+        <item>Meeting Room</item>
+        <item>Board of Director</item>
+        <item>Teleconference Room</item>
+        <item>High Voltage Lab.</item>
+        <item>Lecturers Transit Room</item>
         <item>TD Classroom</item>
         <item>Transmission and Distribution Lab.</item>
         <item>South Toilet</item>
