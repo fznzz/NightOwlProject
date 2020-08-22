@@ -9,12 +9,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    Boolean newact=false;
+    Boolean newact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        newact=false;
 
         new CountDownTimer(30000, 1000) {
             public void onFinish() {
