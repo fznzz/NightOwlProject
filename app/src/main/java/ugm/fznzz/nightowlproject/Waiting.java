@@ -1,17 +1,13 @@
 package ugm.fznzz.nightowlproject;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import ugm.fznzz.nightowlproject.dataclass.desiredRoom;
-
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -21,6 +17,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Arrays;
 import java.util.Objects;
+
+import ugm.fznzz.nightowlproject.dataclass.desiredRoom;
 
 public class Waiting extends AppCompatActivity{
 

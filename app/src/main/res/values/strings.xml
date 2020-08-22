@@ -3,58 +3,49 @@
     <string-array name="namaRuangan">
         <item>UGM AI Centre</item>
         <item>Honeywell</item>
-        <item>Common Room</item>
         <item>North Toilet</item>
         <item>Electrical Power System Lab</item>
+        <item>Electrical Installation Lab</item>
         <item>Doctoral Residency</item>
         <item>Alumni</item>
         <item>Finance</item>
-        <item>Academic Affair</item>
-        <item>Meeting Room</item>
         <item>Board of Director</item>
         <item>Teleconference Room</item>
         <item>High Voltage Lab.</item>
         <item>Lecturers Transit Room</item>
         <item>TD Classroom</item>
-        <item>Transmission and Distribution Lab.</item>
         <item>South Toilet</item>
     </string-array>
     <string-array name="kodeRuangan">
         <item>N101</item>
         <item>N102</item>
-        <item>N103</item>
         <item>N105</item>
+        <item>N106</item>
         <item>N106</item>
         <item>N107</item>
         <item>N108</item>
         <item>N109</item>
-        <item>S101</item>
-        <item>S102</item>
         <item>S103</item>
         <item>S104</item>
         <item>S105</item>
         <item>S106</item>
         <item>S107</item>
-        <item>S108</item>
         <item>S109</item>
     </string-array>
     <string-array name="kodeOnline">
         <item>ugmai</item>
         <item>honeywell</item>
-        <item>commonroom</item>
         <item>north_toilet</item>
         <item>power</item>
-        <item>doctoral</item>
+        <item>installation</item>
+        <item>thesis</item>
         <item>alumni</item>
         <item>finance</item>
-        <item>academic</item>
-        <item>meeting</item>
-        <item>director</item>
+        <item>admin</item>
         <item>teleconference</item>
         <item>high_power</item>
-        <item>transit</item>
-        <item>td_class</item>
-        <item>td_lab</item>
+        <item>lecturer</item>
+        <item>td</item>
         <item>south_toilet</item>
     </string-array>
     <string-array name="ar_pertanyaan">
