@@ -7,7 +7,7 @@
     android:background="@drawable/owl"
     tools:context=".Waiting">
 
-    <ImageView
+<!--    <ImageView
         android:id="@+id/bt_back_waiting"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -16,17 +16,29 @@
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_back" />
+        app:srcCompat="@drawable/ic_back" />-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="44dp"
-        android:text="Sedang berjalan"
-        android:textSize="50sp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/bubble"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ikuti Aku!"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <!--    <TextView
             android:id="@+id/tv_testingKode"

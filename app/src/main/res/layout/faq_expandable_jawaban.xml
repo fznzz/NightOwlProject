@@ -12,6 +12,6 @@
         android:paddingLeft="45dp"
         android:text="Jawaban"
         android:textColor="@color/colorPrimary"
-        android:textSize="14sp" />
-
+        android:textSize="14sp"
+        />
 </FrameLayout>

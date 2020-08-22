@@ -8,7 +8,9 @@ import ugm.fznzz.nightowlproject.faq.faq_jawaban;
 import ugm.fznzz.nightowlproject.faq.faq_pertanyaan;
 
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,11 +20,14 @@ public class FAQ extends AppCompatActivity {
     String[] ar_per;
     String[] ar_jaw;
     RecyclerView recyclerView;
+    TextView asd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_f_a_q);
+
+//        asd = findViewById(R.id.textViewjawabann);
 
         recyclerView = findViewById(R.id.rv_faq);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

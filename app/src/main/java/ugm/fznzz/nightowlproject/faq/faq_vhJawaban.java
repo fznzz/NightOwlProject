@@ -5,6 +5,7 @@ import android.widget.TextView;
 
 import com.thoughtbot.expandablerecyclerview.viewholders.ChildViewHolder;
 
+import me.biubiubiu.justifytext.library.JustifyTextView;
 import ugm.fznzz.nightowlproject.R;
 
 public class faq_vhJawaban extends ChildViewHolder {
