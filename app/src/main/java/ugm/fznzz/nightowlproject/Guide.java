@@ -39,7 +39,9 @@ public class Guide extends AppCompatActivity implements guide_adapter.OnNoteList
 
     public void backClick(View v)
     {
-        finish();
+
+        Intent i = new Intent(getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     public void nextClick(View v)

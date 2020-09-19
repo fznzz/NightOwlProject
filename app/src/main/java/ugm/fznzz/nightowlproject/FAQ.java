@@ -7,6 +7,7 @@ import ugm.fznzz.nightowlproject.faq.faq_adpJawaban;
 import ugm.fznzz.nightowlproject.faq.faq_jawaban;
 import ugm.fznzz.nightowlproject.faq.faq_pertanyaan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Layout;
 import android.view.View;
@@ -54,6 +55,7 @@ public class FAQ extends AppCompatActivity {
         }
         for(int i = 0; i < length; i++)
         {
+            jawaban= new ArrayList<>();
             jawaban.add(convertJawaban[i]);
             pertanyaan[i] = new faq_pertanyaan(ar_per[i], jawaban);
         }
@@ -65,6 +67,7 @@ public class FAQ extends AppCompatActivity {
 
     public void backClick(View v)
     {
-        finish();
+        Intent i = new Intent(getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 }
