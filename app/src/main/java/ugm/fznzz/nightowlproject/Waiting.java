@@ -22,13 +22,13 @@ import ugm.fznzz.nightowlproject.dataclass.desiredRoom;
 
 public class Waiting extends AppCompatActivity{
 
-    TextView status, ip, loc;
+    TextView status;
     FirebaseDatabase database;
     DatabaseReference destination;
     String[] kodeRuangan, kodeOnline;
     String TAG = "MyActivity";
     String kode;
-    desiredRoom a, b;
+    desiredRoom default_room, desired_room;
 /*    AnimationDrawable anim;*/
 
     @Override
@@ -67,12 +67,12 @@ public class Waiting extends AppCompatActivity{
         destination.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                a = new desiredRoom("lobby","homing");
-                b = snapshot.getValue(desiredRoom.class);
-                assert b != null;
+                default_room = new desiredRoom("lobby","homing");
+                desired_room = snapshot.getValue(desiredRoom.class);
+                assert desired_room != null;
 //                loc.setText(b.getRoom());
 //                ip.setText(a.getRoom());
-                resetApp(a,b);
+                resetApp(default_room, desired_room);
                 }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
