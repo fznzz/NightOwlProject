@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Arrays;
 import java.util.Objects;
 
-import ugm.fznzz.nightowlproject.dataclass.desiredRoom;
+import ugm.fznzz.nightowlproject.guide.desiredRoom;
 
 public class Waiting extends AppCompatActivity{
 

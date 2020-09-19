@@ -1,4 +1,4 @@
-package ugm.fznzz.nightowlproject.dataclass;
+package ugm.fznzz.nightowlproject.guide;
 
 public class desiredRoom {
 
