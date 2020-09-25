@@ -1,5 +1,6 @@
 package ugm.fznzz.nightowlproject.guide;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -34,15 +35,25 @@ public class guide_adapter extends RecyclerView.Adapter<guide_adapter.MyViewHold
         return new MyViewHolder(v, mOnNoteListener);
     }
 
+    @SuppressLint("ResourceAsColor")
     @Override
     public void onBindViewHolder(@NonNull guide_adapter.MyViewHolder holder, final int position) {
 
         holder.nama.setText(s1[position]);
         holder.kode.setText(s2[position]);
         if(selectedPosition==position)
-            holder.itemView.setBackgroundColor(Color.parseColor("#c3e8fa"));
+        {
+            holder.itemView.setBackgroundColor(Color.parseColor("#b379c5e6"));
+            holder.nama.setTextColor(context.getResources().getColor(R.color.yellow1));
+            holder.kode.setTextColor(context.getResources().getColor(R.color.yellow1));
+        }
         else
-            holder.itemView.setBackgroundColor(Color.parseColor("#ffffff"));
+        {
+            holder.itemView.setBackgroundColor(Color.parseColor("#99ddf3fd"));
+            holder.nama.setTextColor(context.getResources().getColor(R.color.yellow3));
+            holder.kode.setTextColor(context.getResources().getColor(R.color.yellow3));
+        }
+
 //        holder.itemView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {

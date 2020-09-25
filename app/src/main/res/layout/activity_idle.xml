@@ -26,6 +26,7 @@
             android:layout_marginVertical="20dp"
             android:text="Butuh Bantuan?"
             android:textSize="40sp"
+            android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

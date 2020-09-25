@@ -7,4 +7,22 @@
     <color name="colorStatusText">#FFDB58</color>
     <color name="colorRecieveText">#00FF00</color>
     <color name="colorSendText">#82CAFF</color>
+    <color name="blacky">#172B2E</color>
+    <color name="whitely">#DCD6D6</color>
+    <color name="blue1">#DDF3FD</color>
+    <color name="blue2">#A7DCF4</color>
+    <color name="blue3">#79C5E6</color>
+    <color name="blue4">#53ADD3</color>
+    <color name="blue5">#3291B9</color>
+    <color name="yellow1">#FFF6DD</color>
+    <color name="yellow2">#FFE8AA</color>
+    <color name="yellow3">#FFDC80</color>
+    <color name="yellow4">#FFD25D</color>
+    <color name="yellow5">#FFC93D</color>
+    <color name="red1">#FFE3DD</color>
+    <color name="red2">#FFB9AA</color>
+    <color name="red3">#FF9680</color>
+    <color name="red4">#FF795D</color>
+    <color name="red5">#FF5E3D</color>
+
 </resources>

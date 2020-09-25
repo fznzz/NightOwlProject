@@ -14,131 +14,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/bt_faq"
-            android:layout_width="380dp"
-            android:layout_height="0dp"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="start"
-            android:layout_marginTop="150dp"
-            android:layout_marginEnd="48dp"
-            android:layout_marginBottom="32dp"
-            android:clickable="true"
-            android:elevation="5dp"
-            android:focusable="true"
-            android:foreground="?attr/selectableItemBackground"
-            android:innerRadius="0dp"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/main_bt_faq"
             android:onClick="faqClick"
-            android:shape="ring"
-            android:thicknessRatio="1.9"
-            app:cardBackgroundColor="@color/card"
-            app:cardCornerRadius="25dp"
-            app:cardUseCompatPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintStart_toStartOf="parent" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp">
-
-                <ImageView
-                    android:id="@+id/img_faq"
-                    android:layout_width="225dp"
-                    android:layout_height="200dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="32dp"
-                    android:scaleType="center"
-                    android:src="@drawable/ic_faq"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Frequently Asked Question"
-                    android:textColor="@android:color/background_dark"
-                    android:textSize="26sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/img_faq" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/bt_guide"
-            android:layout_width="380dp"
-            android:layout_height="0dp"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="start"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="150dp"
-            android:layout_marginBottom="32dp"
-            android:clickable="true"
-            android:elevation="5dp"
-            android:focusable="true"
-            android:foreground="?attr/selectableItemBackground"
-            android:innerRadius="0dp"
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/main_bt_guide"
             android:onClick="guideClick"
-            android:shape="ring"
-            android:thicknessRatio="1.9"
-            app:cardBackgroundColor="@color/card"
-            app:cardCornerRadius="25dp"
-            app:cardUseCompatPadding="true"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp">
-
-                <ImageView
-                    android:id="@+id/img_guide"
-                    android:layout_width="225dp"
-                    android:layout_height="200dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="32dp"
-                    android:scaleType="center"
-                    android:src="@drawable/ic_guide"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Guide Robot"
-                    android:textColor="@android:color/background_dark"
-                    android:textSize="30sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/img_guide" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </androidx.cardview.widget.CardView>
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Selamat Datang di Gedung DTETI FT UGM"
-            android:textColor="@android:color/white"
-            android:textSize="40sp"
+            android:gravity="center"
+            android:text="Selamat Datang di DTETI FT UGM"
+            android:textColor="@color/yellow1"
+            android:textSize="50sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

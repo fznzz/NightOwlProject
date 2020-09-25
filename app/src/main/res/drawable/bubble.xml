@@ -18,8 +18,10 @@
                 <solid android:color="#01000000" />
             </shape>
         </rotate>
+        <color android:color="@color/yellow1"/>
     </item>
     <item android:left="8dp">
+        <color android:color="@color/yellow1"/>
         <shape android:shape="rectangle">
             <padding
                 android:bottom="1px"
@@ -46,6 +48,7 @@
         </rotate>
     </item>
     <item android:left="8dp">
+        <color android:color="@color/yellow1"/>
         <shape android:shape="rectangle">
             <padding
                 android:bottom="1px" />
@@ -73,6 +76,7 @@
         </rotate>
     </item>
     <item android:left="8dp">
+        <color android:color="@color/yellow1"/>
         <shape android:shape="rectangle">
             <padding
                 android:bottom="1px"
@@ -98,6 +102,7 @@
         </rotate>
     </item>
     <item android:left="8dp">
+        <color android:color="@color/yellow1"/>
         <shape android:shape="rectangle">
             <solid android:color="@android:color/white" />
             <corners android:radius="8dp" />

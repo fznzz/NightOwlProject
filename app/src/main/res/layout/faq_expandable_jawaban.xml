@@ -11,7 +11,7 @@
         android:paddingStart="45dp"
         android:paddingLeft="45dp"
         android:text="Jawaban"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/yellow1"
         android:textSize="18sp"
         />
 </FrameLayout>

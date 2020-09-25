@@ -18,6 +18,6 @@
         android:padding="?android:listPreferredItemPaddingLeft"
         android:text="Pertanyaan"
         android:textSize="24sp"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/yellow2"
         android:id="@+id/textView"/>
 </FrameLayout>
