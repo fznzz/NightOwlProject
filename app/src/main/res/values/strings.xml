@@ -51,16 +51,105 @@
     <string-array name="ar_pertanyaan">
         <item>Sejarah DTETI?</item>
         <item>Visi Misi?</item>
+        <item>Fasilitas yang ada di DTETI?</item>
+        <item>Lab. Teknik Elektro Dasar</item>
+        <item>Lab. Elektronika Dasar</item>
+        <!--5-->
+        <item>Lab. Instalasi Listrik</item>
+        <item>Lab. Teknik Tenaga Listrik</item>
+        <item>Lab. Teknik Tegangan Tinggi</item>
+        <item>Lab. Sistem Digital</item>
+        <item>Lab. Informatika dan Komputer</item>
+        <!--10-->
+        <item>Lab. Instrumentasi dan Kendali</item>
+        <item>Lab. Telekomunikasi dan Teknik Frekuensi Tinggi</item>
+        <item>Lab. Pengolahan Isyarat</item>
+        <item>Lab. Sistem Elektronis</item>
+        <item>Lab. Transmisi dan Distribusi</item>
+        <!--15-->
+        <item>Lab. Jaringan Komputer</item>
+        <item>Lab. Microsoft Innovation Center</item>
+        <item>Lab. Cisco Network Academy</item>
+        <item>Lab. Schneider Electric Training Center</item>
+        <item>Jurnal JNTETI</item>
+        <!--20-->
+        <item>Ruang Referensi</item>
+        <item>Unit Sistem dan Teknologi Informasi (USTI)</item>
+        <item>Free Wi-Fi Area</item>
+        <item>Toilet</item>
+        <item>Musholla</item>
+        <!--25-->
+        <item>Parkir</item>
+        <item>Sistem Keamanan</item>
     </string-array>
     <string-array name="ar_jawaban">
-        <item>Jurusan Teknik Elektro dan Teknologi Informasi (JTETI) Fakultas Teknik Universitas Gadjah Mada berdiri sejak tahun 1963, dengan nama Bagian Teknik Mesin dan Listrik. Sebutan “Jurusan” (menggantikan “Bagian”) mulai digunakan pada tahun 1980 mengikuti PP No. 5 tahun 1980, sedangkan nama “Teknik Elektro” (menggantikan nama “Listrik”), mulai digunakan tahun 1983 untuk menyesuaikan dengan SK Menteri Pendidikan dan Kebudayaan RI No. 0174/0/1983 tentang Penataan Jurusan pada Fakultas di Lingkungan Universitas/Institut Negeri.</item>
+        <!--nomer 1-->
+        <item>Jurusan Teknik Elektro dan Teknologi Informasi (JTETI) Fakultas Teknik Universitas Gadjah Mada berdiri sejak tahun 1963, dengan nama Bagian Teknik Mesin dan Listrik.
+            Sebutan “Jurusan” (menggantikan “Bagian”) mulai digunakan pada tahun 1980 mengikuti PP No. 5 tahun 1980, sedangkan nama “Teknik Elektro” (menggantikan nama “Listrik”), mulai digunakan tahun 1983 untuk menyesuaikan dengan SK Menteri Pendidikan dan Kebudayaan RI No. 0174/0/1983 tentang Penataan Jurusan pada Fakultas di Lingkungan Universitas/Institut Negeri.</item>
         <item>Visi
 Sumber inovasi yang universal di Bidang Ilmu Teknik Elektro &amp; Teknologi Informasi, untuk kepentingan bangsa dan kemanusiaan, dijiwai nilai-nilai budaya bangsa berdasarkan Pancasila.
-
-
 Misi
-
 1. Melaksanakan tridharma perguruan tinggi untuk menghasilkan lulusan yang cakap dan berintegritas dan  menyelenggarakan penelitian yang dapat dimanfaatkan bagi kepentingan bangsa dan kemanusiaan.
 2. Mengembangkan lingkungan akademik yang mendorong tumbuhnya  inovasi dalam pelaksanaan tridharma perguruan tinggi.</item>
+        <item>- Lab. Teknik Elektro Dasar
+- Lab. Elektronika Dasar
+- Lab. Instalasi Listrik
+- Lab. Teknik Tenaga Listrik
+- Lab. Teknik Tegangan Tinggi
+- Lab. Sistem Digital
+- Lab. Informatika dan Komputer
+- Lab. Instrumentasi dan Kendali
+- Lab. Telekomunikasi dan Teknik Frekuensi Tinggi
+- Lab. Pengolahan Isyarat
+- Lab. Sistem Elektronis
+- Lab. Transmisi dan Distribusi
+- Lab. Jaringan Komputer
+- Lab. Microsoft Innovation Center
+- Lab. Cisco Network Academy
+- Lab. Schneider Electric Training Center
+- Jurnal JNTETI
+- Ruang Referensi
+- Unit Sistem dan Teknologi Informasi
+- Free wi-fi area
+- Toilet
+- Mushola
+- Parkir
+- Sistem Keamanan</item>
+        <item>Laboratorium ini mengkelola kegiatan berkaitan dengan Teknik Elektro Dasar yang memberikan pemahaman melalui pengamatan di Laboratorium bagi mahasiswa di tahun pertama. Laboratorium ini juga mendukung kegiatan-kegiatan penelitian, dan pengabdian pada masyarakat.</item>
+        <item>Laboratorium ini mengkelola kegiatan berkaitan tentang Dasar Elektronika bagi seluruh mahasiswa, dan mendukung kegiatan penelitian dan pengabdian pada masyarakat.</item>
+        <!--diatas adalah no 5-->
+        <item>Laboratorium ini mengkelola kegiatan yang berkaitan tentang Teknik Instalasi Listrik bagi seluruh mahasiswa. Juga dapat dimanfaatkan untuk penelitian dan pengabdian pada masyarakat</item>
+        <item>Tugas laboratorium ini adalah mengkelola kegiatan dalam bidang konversi energi listrik, pengendali mesin-mesin listrik, dan praktika transformator. Laboratorium ini juga dapat dimanfaatkan untuk penelitian dan pengabdian pada masyarakat.</item>
+        <item>Kegiatan-kegiatan yang diselenggarakan oleh laboratorium ini meliputi pengujian sistem isolasi tegangan tinggi, pengujian peralatan tegangan tinggi, baik untuk pelaksanaan praktika maupun penelitian dan pengabdian pada masyarakat.</item>
+        <item>Kegiatan di laboratorium ini meliputi Sistem Digital, transfer data, pemrograman dan I/O, Teknik Interupsi dan pengembangan untai kombinatorial dan sekuensial.</item>
+        <item>Laboratorium ini mengkelola kegiatan dalam bidang teknik komputer dasar, pemrograman komputer dan struktur data, penelitian dan pengembangan sistem komputer (perangkat keras dan perangkat lunak), penerapan metodologi kecerdasan buatan/sistem pakar dalam berbagai bidang, aplikasi grafika komputer dan antarmuka grafis. Juga untuk mendukung kegiatan penelitian dan pengabdian pada masyarakat.</item>
+        <!--diatas adalah no 10-->
+        <item>Kegiatan yang dicakup adalah servomekanika dan instrumentasi industri, pengembangan peralatan dan sistem instrumentasi, teknik kendali berdasar mikroprosesor, penelitian kepekaan, dan pengembangan perangkat lunak untuk pengendalian. Laboratorium ini mendukung kegiatan penelitian mahasiswa dan staf pengajar.</item>
+        <item>Kegiatan di laboratorium ini mencakup Teknik Telekomunikasi dan Frekuensi Tinggi dengan pengenalan peralatan-peralatan telekomunikasi dasar dan lanjut, dan digital, serta peralatan frekuensi tinggi. Laboratorium ini juga dapat mendukung kegiatan penelitian dan pengembangan dalam bidang komunikasi.</item>
+        <item>Laboratorium ini menyelenggarakan kegiatan Pengolahan Isyarat (Analog dan Digital) bagi mahasiswa tingkat menengah dan mendukung kegiatan penelitian dan pengembangan untai-untai elektronis untuk sistem komunikasi dan instrumentasi.</item>
+        <item>Kegiatan yang diselenggarakan mencakup penelitian dalam bidang telekomunikasi, penelitian tentang isyarat dan informasi, pengolahan isyarat dan citra, dan pengujian peralatan komunikasi. Laboratorium ini berorentasi pada kegiatan penelitian para mahasiswa tingkat akhir dan staf pengajar.</item>
+        <item>Laboratorium ini dikembangkan untuk memberikan pemahaman praktis tentang watak operasi sistem tenaga dalam keadaan normal dan dalam keadaan gangguan. Juga dapat dimanfaatkan untuk kegiatan penelitian dan pengabdian pada masyarakat.</item>
+        <!--diatas adalah no 15-->
+        <item>Laboratorium ini mengelola Praktikum jaringan komputer yang terdiri dari beberapa topik sbagai berikut:
+a) IP Address, Subnetting, VLSM dan IP Assignment
+b) Mekanisme ARP dan DNS serta Hands-on Crimping Cable
+c) Mekanisme DHCP dan NAT
+d) Routing Protocol (static &amp; dynamic routing protocol)
+e) Instalasi Web Server, DNS Server, Database Server dan FTP Server
+f) Instalasi DNS Server sebagai Master dan Slave</item>
+        <item>Microsoft Innovation Center adalah organisasi riset independen hasil kerjasama PT. Microsoft Indonesia dengan Teknik Elektro dan Teknologi Informasi UGM. Berbekal dengan visi untuk menumbuhkan inovasi pengembangan perangkat lunak lokal serta mewujudkan local software economu, MIC hadir dengan rangkaian program dan layanan yang akan membantu akademisi, UKM, hingga perusahaan untuk mengutilisasi teknologi informasi. Perogram dari MIC seperti self-improvement, skill accelerator, Microsoft IT Academy, Student 2 Business, dll.</item>
+        <item>CNA DTETI FT UGM adalah program pelatihan SDM bidang Teknologi Informasi berbasis blended learning (E-learning dan face to face). Peserta pelatihan mendapatkan materi pembelajaran berbasis multimedia dan ujian secara online dengan kurikulum berstandard internasional. Setelah selesai pembelajaran peserta pelatihan akan mendapatkan sertifikat kelulusan pelatihan internasional. Bersama Pearson Vue, CNA juga menyelenggarakan ujian sertifikasi internasional bidang TI.</item>
+        <item>Merupakan tempat pusat pelatihan PLC Schneider di Yogyakarta yang dimiliki oleh UGM dan kerjasama dengan PT Schneider Electric Indonesia. Kegiatan yang diselenggarakan mencakup pelatihan bagi guru atau siswa SMK, mahasiswa dan perusahaan serta berbagai penelitian tentang sistem kontrol dan automasi industri, Fasilitas yang didukung antara lain PLC Twido da Modicon, Human-machine Interface (HMI), serta Altivar.</item>
+        <item>Jurnal Nasional Teknik Elektro dan Teknologi Informasi (JNTETI) adalah jurnal terbuka berbasis penelitian ilmiah. Jurnal ini diharapkan memungkinkan penyebaran informasi ilmiah yang berkualitas secara cepat di seluruh tanah air.</item>
+        <!--diatas adalah no 20-->
+        <item>DTETI memiliki ruang referensi yang melayani keperluan referensi para mahasiswa dan staff pengajar yang berlokasi di Lantai 1 DTETI FT UGM. Saat ini tersedia lebih dari 694 judul buku dengan jumlah 1018 eksemplar, 11 judul majalah/jurnal IEEE dengan jumlah 1924 eksemplar serta lebih dari 2100 judul skripsi mahasiswa.
+Ruang referensi juga dilengkapi dengan mesin fotokopi untuk memenuhi kebutuhan para mahasiswa dan keperluan Departemen. Ruang Referensi ini buka dari pukul 07.00 sampai dengan 16.00 WIB.</item>
+        <item>USTI merupakan pusat layanan teknologi informasi di DTETI UGM. Misi USTI adalah memberikan layanan teknologi informasi bagu seluruh civitas akademika DTETI serta turut melakukan pengembangan dan pemanfaatan teknologi informasi di lingkungan UGM.</item>
+        <item>Pemasangan beberapa wireless access point untuk koneksi internet (hotspot) di lingkungan DTETI dari lantai 1 hingga lantai 3 telah dilakukan sehingga civitas akademika diharapkan dapat mudah mengakses informasi yang up to date yang mendukung kegiatan belajar mengajar.</item>
+        <item>Di DTETI UGM, fasilitas toilet disediakan di tiap sisi barat daya dan timur laut gedung untuk setiap lantai baik untuk putra dan putri sehingga total ada 6 toilet dalam 1 gedung.</item>
+        <item>Musholla DTETI FT UGM berada di sisi timur gedung Teknik Elektro dan Teknologi Informasi. Musholla ini dilengkapi perpustakaan mini yang sangat mendukung kegiatan keagamaan di Departemen Teknik Elektro dan Informasi.</item>
+        <!--diatas adalah no 25-->
+        <item>Lokasi parkir kendaraan roda 2 berada di sebelah selatan dan timur gedung. Parkir bagian selatan dilengkapi dengan atak, conblok, dan pintu pengaman. Sedangkan parkir di bagian timur dilengkapi dengan conblok dan pintu pengaman. Area parkir ini dijaga oleh penjaga, normalnya pukul 07.00–16.00 WIB.</item>
+        <item>Sistem keamanan berupa CCTV telah tersedia di seluruh sudut gedung DTETI sehingga dapat meningkatkan kewaspadaan civitas akademika. Kemudian alat pemadam api ringan (APAR) telah disediakan di hampir semua laboratorium dan ruang-ruang kerja dan dilakukan audit setiap 3 bulan</item>
     </string-array>
 </resources>
